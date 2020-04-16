@@ -59,3 +59,27 @@ prh.ymlのimportsで読み込みたいファイルを定義すると、定義フ
 imports:
   - ./prh-rules/media/techbooster.yml
 ```
+
+#### 終了ステータスと--verify
+prhの終了ステータスは常に0だそうです。
+```
+echo $?
+0
+```
+--verifyオプションをつけることにより、エラーがあった時には、終了ステータスを0以外にできます。
+
+実行結果
+```
+docker run --rm -v $PWD:/work prh --verify sample.txt
+
+sample.txt(2,1): java → Java
+sample.txt(3,1): jquery → jQuery
+Error: sample.txt failed proofreading
+    at Command._action (/usr/local/lib/node_modules/prh/lib/cli.js:80:15)
+    at Command.exec (/usr/local/lib/node_modules/prh/node_modules/commandpost/lib/command.js:203:37)
+    at /usr/local/lib/node_modules/prh/node_modules/commandpost/lib/command.js:250:25
+
+# 終了ステータスが1になっている
+echo $?
+1
+```
