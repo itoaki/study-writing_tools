@@ -27,3 +27,6 @@ git clone git@github.com:itoaki/writing_tools.git
 ### prh
 [prh.md](/docs/prh.md)
 
+### RedPen
+[RedPen.md](/docs/RedPen.md)
+
