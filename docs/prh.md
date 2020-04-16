@@ -7,6 +7,7 @@ https://github.com/prh/prh
 
 ```
 cd ./prh
+docker build -t prh .
 docker run --rm -v $PWD:/work prh sample.txt
 ```
 実行結果
