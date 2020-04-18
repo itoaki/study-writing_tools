@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "preset-ja-technical-writing":  {
+      "max-ten": {
+        "max": 2
+      }
+    }
+  },
+  "filters": {
+    "comments": true
+  }
+}

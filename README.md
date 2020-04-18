@@ -30,3 +30,5 @@ git clone git@github.com:itoaki/writing_tools.git
 ### RedPen
 [RedPen.md](/docs/RedPen.md)
 
+### textlint
+[textlint].md](/docs/textlint.md)
