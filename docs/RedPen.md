@@ -1,7 +1,7 @@
 # RedPenとは
-RedPenは、読みづらい文章を検出することができるツールです。
-https://github.com/redpen-cc/redpen
-http://redpen.cc/docs/1.10/index.html
+RedPenは、読みづらい文章を検出することができるツールです。  
+https://github.com/redpen-cc/redpen  
+http://redpen.cc/docs/1.10/index.html  
 
 #### サンプルを実行する
 
