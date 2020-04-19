@@ -2,17 +2,19 @@
 
 name: Proof Reading
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
-on: push
+# push、もしくはプルリクエスト作成でトリガーされる
+on: [push, pull_request]
 
 jobs:
   build:
-    # Job name is Greeting
-    name: Greeting
-    # This job runs on Linux
+    # ジョブ名
+    name: Check Contents
+    # これはデフォルトのまま
     runs-on: ubuntu-latest
     steps:
+      # repoをチェックアウト
+      - uses: actions/checkout@v2
+
       # This step uses GitHub's hello-world-javascript-action: https://github.com/actions/hello-world-javascript-action
       - name: Hello world
         uses: actions/hello-world-javascript-action@v1
@@ -22,4 +24,3 @@ jobs:
       # This step prints an output (time) from the previous step's action.
       - name: Echo the greeting's time
         run: echo 'The time was ${{ steps.hello.outputs.time }}.'
-
