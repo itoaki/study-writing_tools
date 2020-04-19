@@ -1,5 +1,4 @@
 # This is a basic workflow to help you get started with Actions
-
 name: Proof Reading
 
 # push、もしくはプルリクエスト作成でトリガーされる
@@ -17,4 +16,4 @@ jobs:
 
       # This step uses GitHub's hello-world-javascript-action: https://github.com/actions/hello-world-javascript-action
       - name:  チェックprh
-        uses: itoaki/writing_tools/prh@master
+        uses: itoaki/writing_tools/prh
