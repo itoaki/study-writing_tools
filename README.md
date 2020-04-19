@@ -23,7 +23,7 @@ Client: Docker Engine - Community
 git clone git@github.com:itoaki/writing_tools.git
 ```
 
-## 校正ツール
+## 校正ツールで遊ぶ
 ### prh
 [prh.md](/docs/prh.md)
 

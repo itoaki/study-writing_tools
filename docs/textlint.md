@@ -6,7 +6,7 @@ https://textlint.github.io/docs/getting-started.html
 #### サンプルを実行する
 
 ```
-cd ./textlint/
+cd ./samples/textlint/
 docker build -t textlint .
 docker run --rm -v $PWD:/work textlint --preset preset-ja-technical-writing sample.md
 ```
