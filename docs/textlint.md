@@ -54,7 +54,7 @@ cho $?
 ```
 
 #### .textlintrcでルールを定義する
---presetで定義していたプラグインを.textrcに定義することができます。  
+--presetで定義していたプラグインを.textlintrcに定義することができます。  
 コンフィグファイルを修正するだけでよくなるので便利です。  
 ```
 docker run --rm -v $PWD:/work textlint --config .textlintrc sample.md
