@@ -6,7 +6,7 @@ https://github.com/prh/prh
 #### サンプルを実行する
 
 ```
-cd ./prh
+cd ./samples/prh
 docker build -t prh .
 docker run --rm -v $PWD:/work prh sample.txt
 ```
@@ -18,7 +18,6 @@ sample.txt(3,1): jquery → jQuery
 
 #### 正しい文章との差分を出力する
 ```
-cd ./prh
 docker run --rm -v $PWD:/work prh --diff sample.txt
 ```
 実行結果
@@ -37,7 +36,6 @@ Index: sample.txt
 
 #### 自動で置換する
 ```
-cd ./prh
 docker run --rm -v $PWD:/work prh --replace sample.txt
 ```
 実行結果
