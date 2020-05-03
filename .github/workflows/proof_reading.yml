@@ -13,6 +13,11 @@ jobs:
     steps:
       - name: hello
         uses: itoaki/study-github_actions@v1.0.0
+      - name: PR Comment test
+        uses: itoaki/action-pr_comment@v1.0.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          message: Nice PR!👍
       # repoをチェックアウト
 #      - uses: actions/checkout@v2
 
