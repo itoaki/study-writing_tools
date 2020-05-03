@@ -20,7 +20,7 @@ Client: Docker Engine - Community
 
 ## リポジトリのチェックアウト
 ```
-git clone git@github.com:itoaki/writing_tools.git
+git clone git@github.com:itoaki/study-writing_tools.git
 ```
 
 ## 校正ツールで遊ぶ
