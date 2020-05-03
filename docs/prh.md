@@ -6,7 +6,7 @@ https://github.com/prh/prh
 #### サンプルを実行する
 
 ```
-cd ./samples/prh
+cd ./prh
 docker build -t prh .
 docker run --rm -v $PWD:/work prh sample.txt
 ```

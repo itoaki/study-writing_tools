@@ -6,7 +6,7 @@ http://redpen.cc/docs/1.10/index.html
 #### サンプルを実行する
 
 ```
-cd ./samples/RedPen
+cd ./RedPen
 docker build -t redpen .
 docker run --rm -v $PWD:/work redpen --lang ja sample.md
 ```
