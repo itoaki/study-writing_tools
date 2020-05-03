@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: hello
-        uses: study-github_actions/master@v1.0.0
+        uses: itoaki/study-github_actions@v1.0.0
       # repoをチェックアウト
 #      - uses: actions/checkout@v2
 
